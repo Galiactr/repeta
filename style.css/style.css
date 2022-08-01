@@ -362,6 +362,7 @@ position: absolute;
 }
 
 /* Repeta 3 */
+
 .group {
   margin-bottom: 20px;
 }
@@ -402,6 +403,9 @@ position: absolute;
   display: flex;
   align-items: center;
 }
+.topic-1 input {
+  color: blue;
+}
 /* .topic-options input[type='checkbox'] {
   width: 40px;
   height: 40px;  
@@ -410,3 +414,15 @@ position: absolute;
   font-size: 20px;
   margin-left: 10px;
 }
+.experience-option {
+  padding: 0;
+  margin: 0;
+}
+.form .date {
+  border-width: 2px;
+  border-radius: 4px;
+   padding: 20px 40px;
+  }
+  .comments {
+    padding: 8px;
+  }

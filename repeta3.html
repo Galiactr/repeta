@@ -1,19 +1,25 @@
-<!DOCTYPE html>
-<br lang="en">
+ <!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./style.css/style.css" />
-    <title>Document</title>
+    <title>WebStudio</title>
   </head>
+  <body>
+
      <form class="form js-speaker-form" autocomplete="on">
      <div class="form-field">
           <label for="name" class="form-lable">Name</label>
@@ -65,7 +71,7 @@
           </div>   
      <div class="form-field">
                <label type="date">Date</label>
-            <input type="datetime-local" name="time" id="date"/>
+            <input type="datetime-local" name="time" id="date" class="date"/>
           </div>
     <div class="form-field">
           <label for="pdf">Download PDF</label>
@@ -73,7 +79,7 @@
      </div>
      <div class="form-field">
           <label for="comments">Comments</label>
-          <textarea name="Comments" id="comments" cols="50" rows="20"></textarea>
+          <textarea class="comments" name="Comments" id="comments" cols="50" rows="20"></textarea>
      </div>
      <div class="form-field">
           <input type="checkbox" name="policy" id="policy"/>
