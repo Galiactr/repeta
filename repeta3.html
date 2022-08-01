@@ -14,17 +14,19 @@
     <link rel="stylesheet" href="./style.css/style.css" />
     <title>Document</title>
   </head>
-     <form class="js-speaker-form" autocomplete="on">
-          <label for="name">Name</label>
-          <input type="email" name="email" id="name" placeholder="Ivan Ivanov" autofocus/>
-     <p class="form-field">
+     <form class="form js-speaker-form" autocomplete="on">
+     <div class="form-field">
+          <label for="name" class="form-lable">Name</label>
+          <input class="form-input" type="email" name="email" id="name" placeholder="Ivan Ivanov" autofocus/>
+     </div>
+     <div class="form-field">
           <label for="tel">Telephone number</label>
           <input type="tel" name="tel" id="tel"/>
-     </p>
+     </div>
+     <div class="form-field"> 
            <label for="email">E-mail</label>
           <input type="email" name="tel" id="email"/>
-     </br>
-         
+     </div>       
      <div role="group"> 
           <input type="checkbox" name="topic-1" value="html" id="html"/>
           <label type="html">HTML</label>
