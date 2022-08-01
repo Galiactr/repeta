@@ -1,3 +1,9 @@
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
 .menu {
      padding: 0;
      margin: 0;
@@ -356,6 +362,9 @@ position: absolute;
 }
 
 /* Repeta 3 */
+.group {
+  margin-bottom: 20px;
+}
 .form {
   width: 600px;
   outline: 1px solid tomato;
@@ -368,4 +377,36 @@ position: absolute;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+}
+.form-field label {
+  margin-bottom: 5px;
+}
+.form-field input {
+  margin: 0;
+  padding: 6px 10 px;
+}
+.form-field input::placeholder {
+  color: brown;
+  text-align: right;
+}
+
+.group-title {
+   margin-top: 0;
+   margin-bottom: 10px;
+}
+.topic-options {
+  padding: 0;
+  margin: 0;
+}
+.topic-options li {
+  display: flex;
+  align-items: center;
+}
+/* .topic-options input[type='checkbox'] {
+  width: 40px;
+  height: 40px;  
+} */
+.topic-options label {
+  font-size: 20px;
+  margin-left: 10px;
 }

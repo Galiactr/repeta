@@ -27,46 +27,61 @@
            <label for="email">E-mail</label>
           <input type="email" name="tel" id="email"/>
      </div>       
-     <div role="group"> 
+     <div role="group" class="group"> 
+          <h2 class="group-title">Subject</h2>
+<ul class="topic-options">
+     <li>
           <input type="checkbox" name="topic-1" value="html" id="html"/>
           <label type="html">HTML</label>
-
+</li>
+<li>
           <input type="checkbox" name="topic-2" value="css" id="css"/>
           <label type="css">CSS</label>
-
+</li>
+<li>
           <input type="checkbox" name="topic-3" value="js" id="js"/>
           <label type="js">JavaScript</label>
+</li> 
      </div>              
-             
+     </ul>        
 <!-- указывает что выбрано checked -->
-     <div role="group">
+     <div role="group" class="group">
+          <h2 class="group-title">Level of your expert</h2>
+
+          <ul class="experience-option">
+               <li>
             <input type="radio" name="experience" value="junior" id="junior" checked/> 
             <label type="junior">Junior</label>
             
+            <li>
             <input type="radio" name="experience" value="middle" id="middle"/>
             <label type="middle">Middle</label>
-            
+            </li>
+            <li>
             <input type="radio" name="experience" value="senior" id="senior"/>
             <label type="senior">Senior</label>
-     </div>   
-
-            <label type="date">Date</label>
+            </li>
+     </ul>
+          </div>   
+     <div class="form-field">
+               <label type="date">Date</label>
             <input type="datetime-local" name="time" id="date"/>
-          
-     </br>
+          </div>
+    <div class="form-field">
           <label for="pdf">Download PDF</label>
            <input type="file" name="pdf" id="pdf"/>
-   
-     </br>
+     </div>
+     <div class="form-field">
           <label for="comments">Comments</label>
           <textarea name="Comments" id="comments" cols="50" rows="20"></textarea>
-
-     </br>
+     </div>
+     <div class="form-field">
           <input type="checkbox" name="policy" id="policy"/>
           <label for="policy">Policy agree</label>
-
-     </br>          
+     </div>
+       <div class="form-field">    
           <button type="submit">Leave the request</button>
+          </div>   
      </form>
      
      <script src="'.js-speaker-form'"></script>
