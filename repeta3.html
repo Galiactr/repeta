@@ -14,21 +14,18 @@
     <link rel="stylesheet" href="./style.css/style.css" />
     <title>Document</title>
   </head>
-<br>
-     <br class="js-speaker-form">
+     <form class="js-speaker-form" autocomplete="on">
           <label for="name">Name</label>
-          <input type="email" name="email" id="name"/>
-
-          </br>
+          <input type="email" name="email" id="name" placeholder="Ivan Ivanov" autofocus/>
+     <p class="form-field">
           <label for="tel">Telephone number</label>
           <input type="tel" name="tel" id="tel"/>
-
-           </br>
+     </p>
            <label for="email">E-mail</label>
           <input type="email" name="tel" id="email"/>
-
-         <div role="group"> 
-          </br>
+     </br>
+         
+     <div role="group"> 
           <input type="checkbox" name="topic-1" value="html" id="html"/>
           <label type="html">HTML</label>
 
@@ -37,11 +34,10 @@
 
           <input type="checkbox" name="topic-3" value="js" id="js"/>
           <label type="js">JavaScript</label>
-               </div>  
-              
-               
+     </div>              
+             
 <!-- указывает что выбрано checked -->
-           <div role="group">
+     <div role="group">
             <input type="radio" name="experience" value="junior" id="junior" checked/> 
             <label type="junior">Junior</label>
             
@@ -50,21 +46,24 @@
             
             <input type="radio" name="experience" value="senior" id="senior"/>
             <label type="senior">Senior</label>
-            </div>   
+     </div>   
 
             <label type="date">Date</label>
             <input type="datetime-local" name="time" id="date"/>
           
-          </br>
+     </br>
           <label for="pdf">Download PDF</label>
            <input type="file" name="pdf" id="pdf"/>
    
      </br>
-
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <label for="comments">Comments</label>
+          <textarea name="Comments" id="comments" cols="50" rows="20"></textarea>
 
      </br>
-               
+          <input type="checkbox" name="policy" id="policy"/>
+          <label for="policy">Policy agree</label>
+
+     </br>          
           <button type="submit">Leave the request</button>
      </form>
      
@@ -78,6 +77,8 @@
                     new FormData(e.currentTarget).forEach((value, name) =>
                         console.log(`${name}: ${value}`),
                     );
+
+                    e.currentTarget.reset();
                 });
         })()
     </script> 
