@@ -354,3 +354,8 @@ position: absolute;
   width: 32px;
   height: 32px;
 }
+
+/* Repeta 3 */
+textarea {
+  resize: none;
+}

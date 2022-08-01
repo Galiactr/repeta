@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<br lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,38 +17,54 @@
 <br>
      <br class="js-speaker-form">
           <label for="name">Name</label>
-          <input type="email" name="email" id="name">
+          <input type="email" name="email" id="name"/>
 
           </br>
           <label for="tel">Telephone number</label>
-          <input type="tel" name="tel" id="tel">
+          <input type="tel" name="tel" id="tel"/>
 
            </br>
            <label for="email">E-mail</label>
-          <input type="email" name="tel" id="email">
+          <input type="email" name="tel" id="email"/>
 
          <div role="group"> 
           </br>
-          <input type="checkbox" name="topic-1" value="html" id="html">
+          <input type="checkbox" name="topic-1" value="html" id="html"/>
           <label type="html">HTML</label>
 
-          <input type="checkbox" name="topic-2" value="css" id="css">
+          <input type="checkbox" name="topic-2" value="css" id="css"/>
           <label type="css">CSS</label>
 
-          <input type="checkbox" name="topic-3" value="js" id="js">
+          <input type="checkbox" name="topic-3" value="js" id="js"/>
           <label type="js">JavaScript</label>
                </div>  
-
-            <input type="radio" name="" value="junior" id="junior">
+              
+               
+<!-- указывает что выбрано checked -->
+           <div role="group">
+            <input type="radio" name="experience" value="junior" id="junior" checked/> 
             <label type="junior">Junior</label>
             
-            <input type="radio" name="" value="middle" id="middle">
+            <input type="radio" name="experience" value="middle" id="middle"/>
             <label type="middle">Middle</label>
             
-            <input type="radio" name="" value="senior" id="senior">
+            <input type="radio" name="experience" value="senior" id="senior"/>
             <label type="senior">Senior</label>
+            </div>   
 
-           </br>
+            <label type="date">Date</label>
+            <input type="datetime-local" name="time" id="date"/>
+          
+          </br>
+          <label for="pdf">Download PDF</label>
+           <input type="file" name="pdf" id="pdf"/>
+   
+     </br>
+
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+
+     </br>
+               
           <button type="submit">Leave the request</button>
      </form>
      
