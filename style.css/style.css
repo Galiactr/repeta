@@ -426,3 +426,53 @@ position: absolute;
   .comments {
     padding: 8px;
   }
+
+  /* Репета 4 */
+
+  .form2 {
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+      }
+  .form-field2 {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .form-label2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    transition: transform 250ms linear;
+  }
+  .form-input2 {
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    font: inherit;
+    border-radius: 3px;
+    border: 1px solid #2a2a2a;
+  }
+  .form-input2:focus +.form-label2, 
+  .form-input2:not(:placeholder-shown)+ .form-label2 {
+    transform: translateY(-50px);
+    color: blue;
+  }
+  .icon-form-repeta4 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+    transform: translateY(-50%);
+
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: tomato;
+  }
+  /* .form-input2 ~ .icon-form-repeta4 {
+    background-color: blueviolet;
+  } */
+  /* .form-input2:focus ~ .icon-form-repeta4 {
+    background-color: blueviolet;
+  } */
