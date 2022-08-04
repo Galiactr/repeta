@@ -593,3 +593,20 @@ h1 {
   background-color: #e91e63;
   transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
 }
+/* СОЛНЦЕ */
+img {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
