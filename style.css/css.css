@@ -1,0 +1,46 @@
+/* СОЛНЦЕ */
+/* 
+img {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Repeta 5 */
+
+/* h1, h2, h3, h4 {
+  margin-top: 0;
+
+} */
+
+.p-text {
+  margin-top: 0;
+}
+.repeta5 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.img-icon {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.body5 {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+  'Helvetica Neue', sans-serif;
+  color: #2a2a2a;
+  background-color: #fff;
+}
